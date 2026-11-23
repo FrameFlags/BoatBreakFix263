@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "boatbreakfix263_1201"
+version = "1.0.0"
+displayName = "Boat Break Fix"
+authors = "Itamio"
+description = '''
+Unofficial port: prevents boats from breaking on long falls and killing the rider. Clean-room implementation with attribution to ElocinDev (MIT). Scaffold release: rules and metadata only; in-game event wiring is not included.
+'''
+
+[[dependencies.boatbreakfix263_1201]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.boatbreakfix263_1201]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "BOTH"

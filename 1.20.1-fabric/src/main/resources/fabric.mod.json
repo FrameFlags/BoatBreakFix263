@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "boatbreakfix263_1201",
+  "version": "${version}",
+  "name": "Boat Break Fix",
+  "description": "Unofficial port: prevents boats from breaking on long falls and killing the rider. Clean-room implementation with attribution to ElocinDev (MIT). Scaffold release: rules and metadata only; in-game event wiring is not included.",
+  "authors": ["Itamio"],
+  "contact": {"homepage": "https://github.com/FrameFlags/BoatBreakFix263", "sources": "https://github.com/FrameFlags/BoatBreakFix263", "issues": "https://github.com/FrameFlags/BoatBreakFix263/issues"},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {"main": ["itamio.boatbreakfix.BoatBreakFixMod"]},
+  "depends": {"fabricloader": ">=0.15.11", "fabric-api": "*", "minecraft": "~1.20.1", "java": ">=17"}
+}
